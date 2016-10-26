@@ -13,14 +13,5 @@ function rollDice() {
 /* Code here */
 
 for (var i = 0; i < 10; i++) {
-    var score1 = rollDice();
-    var score2 = rollDice();
 
-    if (score1 > score2) {
-        console.log("Player 1 wins " + score1 + " to " + score2);
-    } else if (score2 > score1) {
-        console.log("Player 2 wins " + score2 + " to " + score1);
-    } else {
-        console.log("It's a draw at " + score1 + "!");
-    }
 }
