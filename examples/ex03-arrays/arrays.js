@@ -3,7 +3,7 @@
 var myFirstArray = ['STIC I', 'STIC II', 'STIC III', 'STIC IV'];
 
 /* You can identify an element from the list through the numerical index */
-console.log(myFirstArray[1]); //--> STIC II
+console.log(myFirstArray[1]); //--> STIC II and NOT STIC I
 
 /* Arrays can contain any kind of values */
 var myMixedArray = [
@@ -17,6 +17,8 @@ var myMixedArray = [
 ];
 
 console.log(myMixedArray[3].name); //--> Also objects
+
+/* MORE DIFFICULT */
 
 /* It also possible to build multidimensional arrays, i.e. arrays inside an array */
 var myMultiArray = [
